@@ -9,6 +9,9 @@ class AppState extends EventEmitter {
 
   /** @type {import('./Models/Weather')} */
   weather = {};
+
+  /** @type {import('./Models/Task')} */
+  tasks = [];
   
   time = new Date();
 }

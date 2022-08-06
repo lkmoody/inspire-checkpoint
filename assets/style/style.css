@@ -5,3 +5,13 @@ body {
     height: 100%;
     color: #FFFFFF;
 }
+
+#weather-widget {
+    background-color: #000000;
+    border-radius: 12px;
+}
+
+#clock-widget {
+    background-color: #000000;
+    border-radius: 12px;
+}
