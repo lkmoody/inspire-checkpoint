@@ -1,11 +1,11 @@
 import { generateId } from "../Utils/generateId.js"
 
 export class Weather {
-    constructor(temp, city) {
+    constructor(temp, city, tempFahrenheit = true) {
         this.id = generateId();
         this.temp = parseFloat(temp);
         this.city = city;
-        this.tempFahrenheit = true;
+        this.tempFahrenheit = tempFahrenheit;
     }
 
     set TempFahrenheit(value) {

@@ -9,7 +9,7 @@ export class Quote {
 
   get QuoteTemplate() {
     return /*html*/`
-      <div>
+      <div class="quote-block hide">
         <h1>${this.content}</h1>
         <h3>- ${this.author}</h3>
       </div>

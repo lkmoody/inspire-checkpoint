@@ -15,3 +15,19 @@ body {
     background-color: #000000;
     border-radius: 12px;
 }
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.hide>h3 {
+    display: none;
+}
+
+.hide:hover>h3 {
+    display: block;
+}
+
+.quote-block {
+    background-color: #000000;
+}

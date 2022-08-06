@@ -19,7 +19,7 @@
       <div class="row top-row h-25">
         <div class="col-10">
         </div>
-        <div id="weather-widget" class="col-2">
+        <div id="weather-widget" class="col-2" onclick="javascript:app.weatherController.changeUnit();">
           Weather
         </div>
       </div>
@@ -31,7 +31,14 @@
       <div class="row h-25">
         <div id="image-info-widget" class="col-4">Image Info</div>
         <div id="quote-widget" class="col-4">Quote</div>
-        <div id="todo-widget" class="col-4">ToDo</div>
+        <div class="col-4">
+          <ul id="task-widget">
+          </ul>
+          <h4 id="task-count"></h4>
+          <div>
+            <input id="task-description" onkeypress="javascript:app.taskController.addTask(event, this.value);" type="text"></input>
+          </div>
+        </div>
       </div>
     </div>
   </main>

@@ -8,7 +8,7 @@ class App {
   backgroundImageController = new BackgroundImageController();
   timeController = new TimeController();
   quoteController = new QuoteController();
-  weatherContoller = new WeatherController();
+  weatherController = new WeatherController();
   taskController = new TaskController();
 }
 

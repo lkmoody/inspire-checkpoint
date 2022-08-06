@@ -25,4 +25,8 @@ export class WeatherController {
             console.error('[getWeather]', error);
         }
     }
+
+    changeUnit() {
+        weatherService.changeUnit();
+    }
 }
